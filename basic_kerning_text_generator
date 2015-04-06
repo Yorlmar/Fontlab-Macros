@@ -1,0 +1,47 @@
+#FLM: Basic Kerning Text Generator
+
+# Description:
+# Generate basic combination between a base glyph and the rest of them
+
+# Credits:
+# Yorlmar Campos
+# http://www.rnsfonts.com
+
+# Base Glyph
+
+ss='/a.ss01'
+
+# Rest of Glyph
+
+a= '/a.ss01'
+b= '/b.ss01'
+c= '/c.ss01'
+d= '/d.ss01'
+e= '/e.ss01'
+f= '/f.ss01'
+g= '/g.ss01'
+h= '/h.ss01'
+i= '/i.ss01'
+j= '/j.ss01'
+k= '/k.ss01'
+l= '/l.ss01'
+m= '/m.ss01'
+n= '/n.ss01'
+o= '/o.ss01'
+p= '/p.ss01'
+q= '/q.ss01'
+r= '/r.ss01'
+s= '/s.ss01'
+t= '/t.ss01'
+u= '/u.ss01'
+v= '/v.ss01'
+w= '/w.ss01'
+x= '/x.ss01'
+y= '/y.ss01'
+z= '/z.ss01'
+
+# Combination
+
+print "%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s" % (ss, a, ss, b, ss, c, ss, d, ss, e, ss, f, ss, g, ss, h, ss, i, ss, j, ss, k, ss, l, ss, m, ss, n, ss, o, ss, p, ss, q, ss, r, ss, s, ss, t, ss, u, ss, v, ss, w, ss, x, ss, y, ss, z)
+
+
